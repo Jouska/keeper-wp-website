@@ -1,0 +1,108 @@
+// @media screen and (min-width: $query__small) {
+//     .dynamic-strip {
+//         max-width: 90%;
+//     }
+// }
+
+// @media screen and (min-width: $query__medium) {
+//     .dynamic-strip {
+//         max-width: 70%;
+//     }
+// }
+
+
+.blog-section {
+    &__header {
+        font-size: 9rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 4rem;
+        margin-top: 8rem;
+        display: block;
+        line-height: 100%;
+    }
+}
+
+.home {
+	.archive-view {
+		article {
+            flex: 1 0 36rem;
+            
+            
+            @media screen and (min-width: 500px) {
+                flex: 1 0 40rem;
+            }
+		}
+	}
+}
+
+.dynamic-strip {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 1em;
+    margin-top: 3rem;
+    max-width: 1080px;
+
+    @media screen and (min-width: 500px) {
+        margin: 5rem auto;
+
+    }
+
+    // @media only screen and (max-width: 40.5em) {
+    //     padding: 0;
+    //     padding-bottom: 2.5rem;
+    //     padding-top: 2.5rem;
+    // }
+
+    // & h3 {
+    //     font-size: 5rem;
+    //     font-family: trade-gothic-next-condensed, sans-serif;
+    //     text-transform: uppercase;
+    //     line-height: 5rem;
+    //     margin-bottom: .6rem;
+    //     border-bottom: $color-body 1px solid;
+    //     padding-bottom: .6rem;
+    // }
+
+    // &__content-pane {
+    //     color: white;
+    //     margin-right: 5rem;
+    //     margin-left: 5rem;
+    //     max-width: 50rem;
+    //     flex-grow: 1;
+    //     flex-shrink: 1;
+    //     border-radius: 2px;
+    //     font-family: matrix-ii, serif;
+    //     margin-bottom: 5rem;
+    //     margin-top: 5rem;
+    //     // border-left: 1px solid $color-body;
+    //     // border-bottom: 1px solid $color-body;
+
+    //     @media only screen and (max-width: 40.5em) {
+    //         margin-left: 0rem;
+    //         margin-right: 0rem;
+    //         margin-top: 2.5rem;
+    //         margin-bottom: 2.5rem;
+    //     }
+
+    //     &__image-header {
+    //         height: 20rem;
+    //     }
+
+    //     &__body {
+    //         color: #363636;
+    //         padding: 5rem;
+    //         background-color: #F4F2EE;
+            
+
+    //         &__meta {
+    //             margin-top: .6rem;
+    //             padding-top: .6rem;
+    //             border-top: $color-body 1px solid;
+    //         }
+    //     }
+    // }
+}

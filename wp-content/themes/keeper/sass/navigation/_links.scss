@@ -1,0 +1,33 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: white;
+		background-color: $color-body;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+
+}
+
+.page-content,
+.entry-content,
+.entry-summary,
+.comment-content {
+	
+	a {
+		text-decoration: none;
+		border-bottom: 3px solid $color-body;
+		
+		&:focus,
+		&:hover {
+			color: white;
+		}
+	}
+}

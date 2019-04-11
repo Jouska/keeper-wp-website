@@ -1,0 +1,31 @@
+@keyframes menu-slide-left {
+    0% {
+        transform: translateX(4rem);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+}
+
+@keyframes menu-slide-right {
+    0% {
+        transform: translateX(-4rem);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,140 @@
+
+.case-study {
+
+    h2 {
+        text-align: center;
+        line-height: 100%;
+        margin-bottom: 4rem;
+    }
+
+    
+    .case-study-header-wrapper {
+        margin: 0 auto;
+        margin-bottom: 15vh;
+        align-items: stretch;
+
+        header {
+            flex: 2 0 25vw;
+            text-align: center;
+            h1 {
+                font-size: 9rem;
+                line-height: 100%;
+
+                span {
+                    font-weight: 300;
+                }
+            }
+        }
+
+        .case-study-text-block {
+            // flex: 1 0 20vw;
+            max-width: 80vw;
+            margin: 10vh auto;
+        }
+
+    }
+
+        @media screen and (min-width: 1637px) {
+            .case-study-header-wrapper {
+                display: flex;
+                margin-top: 9rem;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                margin-bottom: 15vh;
+                align-items: stretch;
+                align-content: space-between;
+        
+                header {
+                    flex: 2 0 25vw;
+                    text-align: center;
+                    h1 {
+                        font-size: 9rem;
+                        line-height: 100%;
+        
+                        span {
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .case-study-text-block {
+                    flex: 1 0 20vw;
+                    margin: 0 1em;
+                }
+            }
+    
+        }
+
+
+    p {
+        font-size: 2.8rem;
+    }
+
+    .ndt-orange-block {
+        background-color: #ea5920;
+    }
+
+    .ndt-beige-block {
+        background-color: #ecebe9;
+    }
+
+    .ndt-gray-block {
+        background-color: #dad3d4;
+    }
+
+    .ndt-gray-block-2 {
+        background-color: #ECEBE9;
+    }
+
+    .ndt-gray-spread-1 {
+        background-color: #dededc;
+    }
+
+    .ndt-gray-spread-2 {
+        background-color: #dedadb;
+    }
+
+    .ndt-type-block {
+        background-color: #efeae5;
+    }
+
+
+    .ndt-badges-block {
+        background-color: #f0eeec;
+    }
+
+    .case-study-cell {
+        height: 75rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto auto;
+        align-items: center;
+
+        &__caption {
+            max-width: 30rem;
+            text-align: center;
+            margin: 0 auto;
+
+            @media screen and (min-width: 1024px) {
+                max-width: 70rem;
+            }
+        }
+
+
+        .image-wrapper {
+            margin: auto auto;
+            display: inline-block;
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            width: 70rem;
+            display: block;
+            margin: auto auto;
+
+        }
+    }
+
+}
