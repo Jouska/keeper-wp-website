@@ -70,6 +70,12 @@ wp-content/mysql.sql
 /wp-content/themes/index.php
 /wp-content/plugins/index.php
 /wp-content/plugins/akismet*
+/wp-content/plugins/Custom WP Login
+/wp-content/plugins/forms-3rdparty-integration
+/wp-content/plugins/hooks-test
+/wp-content/plugins/monster-widget
+/wp-content/plugins/Single Post Content Plus
+/wp-content/plugins/thd-contact-monitor
 /wp-content/themes/gulp-dev
 /wp-content/themes/gulp-dev-keeper
 /wp-content/themes/humescores
