@@ -52,7 +52,7 @@
         background-position: -85vw 0vh;
         background-repeat: no-repeat;
         margin-bottom: 3rem;
-        height: 29vh;
+        height: 31vh;
         // background-size: 270%;
         background-position: center;
         background-size: 270%;
@@ -68,10 +68,10 @@
             height: 55vh;
         }
 
-        @media screen and (min-width: 600px) and (min-height: 412px) {
+        @media screen and (min-width: 500px) and (min-height: 412px) {
             background-size: auto;
             background-position: center;
-            height: 49vh;
+            height: 24em;
         }
 
         @media screen and (min-width: 1023px) and (min-height: 1365px) {
