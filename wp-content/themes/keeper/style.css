@@ -390,7 +390,7 @@ h6 {
 }
 
 p {
-	margin: 0;
+	margin: 0 0 2rem;
 	font-family: "matrix-ii", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
@@ -1618,13 +1618,26 @@ ul.children.toggled-on {
 	-ms-flex: 1 1 45rem;
 	    flex: 1 1 45rem;
 	margin: 4rem 0rem;
-	max-width: 50rem;
+	max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	.archive-view article,
+	.archive-view .article-intro {
+		max-width: 37rem;
+	}
 }
 
 .archive-view .article-intro {
 	-ms-flex: 1 1 45rem;
 	    flex: 1 1 45rem;
-	max-width: 50rem;
+	max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	.archive-view .article-intro {
+		max-width: 37rem;
+	}
 }
 
 @media screen and (min-width: 570px) {
@@ -1645,7 +1658,7 @@ ul.children.toggled-on {
 }
 
 .archive-view .entry-title a {
-	font-size: 6rem;
+	font-size: 4rem;
 	line-height: 100%;
 }
 
@@ -1882,7 +1895,8 @@ ul.children.toggled-on {
 
 .entry-header--single {
 	text-align: center;
-	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 .entry-header--single .entry-title {
@@ -1906,7 +1920,7 @@ ul.children.toggled-on {
 		    justify-content: center;
 	}
 	.archive-view .site-content .content-area {
-		width: 95%;
+		width: 100%;
 	}
 }
 

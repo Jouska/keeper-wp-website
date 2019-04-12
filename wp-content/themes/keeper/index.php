@@ -19,7 +19,7 @@ get_header();
 		<main id="main" class="site-main">
 		<header class="keeper-blog-intro article-intro">
 			<h2>Keeper Blog</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, tempore! Mollitia eos doloremque eum dolorem accusantium laudantium laborum reiciendis hic molestiae magni et ea cum, suscipit asperiores repellendus unde fuga!</p>
+			<p>Welcome to the Keeper Blog, where we dissect and de-mystify effective communications and the web.</p>
 			<?php get_search_form(); ?>
 		</header>
 		<?php

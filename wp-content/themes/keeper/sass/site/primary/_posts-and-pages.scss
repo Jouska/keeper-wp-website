@@ -60,12 +60,20 @@
 		display: inline-block;
 		flex: 1 1 45rem;
 		margin: 4rem 0rem;
-		max-width: 50rem;
+		max-width: 100%;
+
+		@media screen and (min-width: 600px) {
+			max-width: 37rem;
+		}
 	}
 
 	.article-intro {
 		flex: 1 1 45rem;
-		max-width: 50rem;
+		max-width: 100%;
+
+		@media screen and (min-width: 600px) {
+			max-width: 37rem;
+		}
 	}
 
 	@media screen and (min-width: 570px) {
@@ -95,7 +103,7 @@
 
 	.entry-title {
 		a {
-			font-size: 6rem;
+			font-size: 4rem;
 			line-height: 100%;
 		}
 	}
@@ -355,7 +363,8 @@
 
 .entry-header--single {
 	text-align: center;
-	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
 
 	.entry-title {
 		font-size: 8rem;
@@ -380,7 +389,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		.content-area  {
-			width: 95%;
+			width: 100%;
 		}
 
 	}
