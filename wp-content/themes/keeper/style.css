@@ -2303,8 +2303,8 @@ ul.children.toggled-on {
 
 .comment-form .form-submit input:hover, .comment-form .form-submit input:focus {
 	color: #fff;
-	background: #b51c35;
-	border-color: #b51c35;
+	background: #363636;
+	border-color: #363636;
 }
 
 .comment-form label {
