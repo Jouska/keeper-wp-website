@@ -390,7 +390,7 @@ h6 {
 }
 
 p {
-	margin: 0 0 2rem;
+	margin: 0 0 4rem;
 	font-family: "matrix-ii", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
@@ -1934,6 +1934,10 @@ ul.children.toggled-on {
 
 .single .entry-content {
 	margin-bottom: 5rem;
+}
+
+.single .entry-content h2 {
+	margin-bottom: 30px;
 }
 
 .single .entry-meta {
