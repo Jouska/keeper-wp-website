@@ -781,7 +781,7 @@ a:focus {
 .entry-summary a,
 .comment-content a {
 	text-decoration: none;
-	border-bottom: 3px solid #363636;
+	border-bottom: 2px solid #363636;
 }
 
 .page-content a:focus, .page-content a:hover,
@@ -1658,22 +1658,30 @@ ul.children.toggled-on {
 }
 
 .archive-view .entry-title a {
-	font-size: 4rem;
+	font-size: 2.5rem;
 	line-height: 100%;
 }
 
 .archive-view .entry-meta {
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 .archive-view .entry-content {
-	font-size: 1.8rem;
+	font-size: .9em;
 	padding-top: .4em;
-	border-top: #363636 3px solid;
+	border-top: #363636 2px solid;
+}
+
+.archive-view .entry-content p {
+	margin-bottom: 0;
+}
+
+.archive-view .tags-links {
+	font-size: 1.5rem;
 }
 
 .archive-view .entry-footer {
-	margin-top: .9rem;
+	margin-top: .8rem;
 }
 
 .content-wrapper {
@@ -1682,7 +1690,7 @@ ul.children.toggled-on {
 
 @media screen and (min-width: 600px) {
 	.content-wrapper {
-		padding: 4rem 3rem;
+		padding: 2.5rem 3rem 3rem;
 	}
 }
 
@@ -1762,7 +1770,7 @@ ul.children.toggled-on {
 }
 
 .entry-footer {
-	border-top: #363636 3px solid;
+	border-top: #363636 2px solid;
 }
 
 .byline::after {
@@ -1880,7 +1888,7 @@ ul.children.toggled-on {
 }
 
 .entry-footer {
-	margin: 1.5em 0 0 0;
+	margin: 0 0 0 0;
 	font-family: "trade-gothic-next-condensed", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 

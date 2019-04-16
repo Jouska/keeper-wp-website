@@ -31,13 +31,12 @@ if ( ! function_exists( 'keeper_posted_on' ) ) :
 		);
 
 		echo '<span class="posted-on">' . $posted_on . ' </span>'; // WPCS: XSS OK.
-
+/** 
 		if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 			echo '<br><span class="comments-link"><span class="extra">Discussion </span>';
 			comments_popup_link(
 				sprintf(
 					wp_kses(
-						/* translators: %s: post title */
 						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'keeper' ),
 						array(
 							'span' => array(
@@ -50,7 +49,7 @@ if ( ! function_exists( 'keeper_posted_on' ) ) :
 			);
 			echo '</span>';
 		}
-
+		*/
 		
 		edit_post_link(
 			sprintf(

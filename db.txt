@@ -1,0 +1,11 @@
+
+sandbox_admin
+
+5JPW5dbyN0YH47E6
+
+8jUOET9ECj3f(2)3iF
+
+
+
+ssh-keygen -t rsa -b 4096 -C "tomhalliwell89@gmail.com"
+
