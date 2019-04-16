@@ -71,7 +71,7 @@ get_header();
 										1920px"
 								 src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/case-studies/ndt-print-1920.jpg" alt="NDT Print">
 							<div class="case-study-cell__caption">
-								<caption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum magnam culpa assumenda illum obcaecati quaerat a.</caption>
+								<caption>Comprehensive print, from high spec images to clean design. Re-imagining theatre imagery as authoritative and desirable.</caption>
 							</div>
 						</div>
 					</section>
@@ -88,7 +88,7 @@ get_header();
 										400px"
 								 src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/case-studies/ndt-cover-1920.jpg" alt="NDT Cover">
 								 <div class="case-study-cell__caption">
-									<caption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum magnam culpa assumenda illum obcaecati quaerat a.</caption>
+									<caption>Magazines, not brochures. Marketing materials that respect the intelligence and curiosity of their audience.</caption>
 								</div>
 						</div>
 					</section>
@@ -102,7 +102,7 @@ get_header();
 										1920px"
 								 src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/case-studies/ndt-spread1-1920.jpg" alt="NDT Spread 1">
 								 <div class="case-study-cell__caption">
-									<caption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum magnam culpa assumenda illum obcaecati quaerat a.</caption>
+									<caption>Considered, minimal layouts that tell you everything you need to know, in just the right level of detail.</caption>
 								</div>
 						</div>
 					</section>
@@ -116,7 +116,7 @@ get_header();
 											1920px"
 									src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/case-studies/ndt-spread2-1920.jpg" alt="NDT Spread 2">
 									<div class="case-study-cell__caption">
-										<caption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum magnam culpa assumenda illum obcaecati quaerat a.</caption>
+										<caption>Content not copy: fleshing out the themes of each of the productions with tonally appropriate wrap-around.</caption>
 									</div>
 						</div>
 					</section>
@@ -130,7 +130,7 @@ get_header();
 											1920px"
 									src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/case-studies/ndt-badges-1920.jpg" alt="NDT Badges">
 									<div class="case-study-cell__caption">
-										<caption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum magnam culpa assumenda illum obcaecati quaerat a.</caption>
+										<caption>Beautiful, collectible and lasting merchandise.</caption>
 									</div>
 						</div>
 					</section>
@@ -144,7 +144,7 @@ get_header();
 											1920px"
 									src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/case-studies/ndt-type-1920.jpg" alt="NDT Type">
 									<div class="case-study-cell__caption">
-										<caption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum magnam culpa assumenda illum obcaecati quaerat a.</caption>
+										<caption>A considered type pairing, powerful but personal. Brand colours derived from the venue’s history, and leaving room for the future.</caption>
 									</div>
 						</div>
 					</section>
