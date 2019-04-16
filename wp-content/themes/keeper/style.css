@@ -1120,6 +1120,10 @@ a:focus {
 	text-align: justify;
 }
 
+.about-us-strip__text-area p {
+	margin-bottom: 2rem;
+}
+
 .about-us-strip__contact-area {
 	width: 36rem;
 	margin-top: 4rem;
