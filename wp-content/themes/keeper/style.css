@@ -1613,12 +1613,6 @@ ul.children.toggled-on {
 	min-height: 0 !important;
 }
 
-@media screen and (min-width: 600px) {
-	.search-results.archive-view .article-intro {
-		max-width: 30%;
-	}
-}
-
 .archive-view.tag .keeper-blog-intro h2 {
 	font-size: 5rem;
 	line-height: 100%;
@@ -1626,12 +1620,6 @@ ul.children.toggled-on {
 
 .archive-view.tag .article-intro {
 	min-height: 0 !important;
-}
-
-@media screen and (min-width: 600px) {
-	.archive-view.tag .article-intro {
-		max-width: 30%;
-	}
 }
 
 .archive-view .site-main {
