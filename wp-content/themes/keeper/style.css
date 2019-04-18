@@ -1613,7 +1613,7 @@ ul.children.toggled-on {
 	min-height: 0 !important;
 }
 
-.archive-view.tag .keeper-blog-intro h2 {
+.archive-view.tag .keeper-blog-intro h1 {
 	font-size: 5rem;
 	line-height: 100%;
 }
