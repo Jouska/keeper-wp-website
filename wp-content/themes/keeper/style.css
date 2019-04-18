@@ -1609,14 +1609,29 @@ ul.children.toggled-on {
 	line-height: 100%;
 }
 
+.search-results.archive-view .article-intro {
+	min-height: 0 !important;
+}
+
 @media screen and (min-width: 600px) {
 	.search-results.archive-view .article-intro {
 		max-width: 30%;
 	}
 }
 
-.no-results h1 {
+.archive-view.tag .keeper-blog-intro h2 {
+	font-size: 5rem;
 	line-height: 100%;
+}
+
+.archive-view.tag .article-intro {
+	min-height: 0 !important;
+}
+
+@media screen and (min-width: 600px) {
+	.archive-view.tag .article-intro {
+		max-width: 30%;
+	}
 }
 
 .archive-view .site-main {
@@ -1718,6 +1733,15 @@ ul.children.toggled-on {
 
 .archive-view .entry-footer {
 	margin-top: .8rem;
+}
+
+.archive-view .no-results h1 {
+	line-height: 100%;
+}
+
+.archive-view .no-results .article-intro {
+	min-height: 0 !important;
+	margin-top: 0;
 }
 
 .content-wrapper {

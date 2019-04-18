@@ -20,7 +20,7 @@ get_header();
 				the_archive_title( '<h1 class="page-title">', '</h1>' );
 				the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, tempore! Mollitia eos doloremque eum dolorem accusantium laudantium laborum reiciendis hic molestiae magni et ea cum, suscipit asperiores repellendus unde fuga!</p>
+				<p>Welcome to the Keeper Blog, where we dissect and de-mystify effective communications and the web.</p>
 				<?php get_search_form(); ?>
 			</header><!-- .page-header -->
 
