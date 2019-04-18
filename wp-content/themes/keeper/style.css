@@ -1123,6 +1123,9 @@ a:focus {
 	font-weight: 300;
 	width: 36rem;
 	text-align: justify;
+	transition: opacity .3s linear;
+	opacity: 1;
+	margin: 0 auto;
 }
 
 .about-us-strip__text-area p {
@@ -1194,6 +1197,48 @@ a:focus {
 	}
 }
 
+.wrapper {
+	position: relative;
+	max-width: 1080px;
+	width: 100%;
+}
+
+.about-us-strip__skills-area {
+	position: absolute;
+	text-align: center;
+	font-size: 2.3rem;
+	transition: opacity .2s linear;
+	opacity: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	padding: 0 1rem;
+}
+
+@media screen and (min-width: 600px) {
+	.about-us-strip__skills-area {
+		font-size: 3rem;
+	}
+}
+
+.about-us-strip__skills-area p {
+	margin-bottom: 26px;
+}
+
+#skills-button button {
+	margin: 3rem 0;
+	font-size: 2rem;
+	border: 1px solid #333;
+	background-color: white;
+	padding: 5px 20px;
+}
+
+#skills-button button:active {
+	background-color: #333;
+	color: white;
+}
+
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
@@ -1248,6 +1293,10 @@ a:focus {
 /*--------------------------------------------------------------
 ## Global layouts
 --------------------------------------------------------------*/
+* {
+	outline-color: #5D9788;
+}
+
 .site-content {
 	padding: 0em;
 	margin: 0;
@@ -2767,6 +2816,14 @@ object {
 		transform: translateX(0rem);
 		opacity: 1;
 	}
+}
+
+.fade {
+	opacity: 0;
+}
+
+.unfade {
+	opacity: 1;
 }
 
 /*--------------------------------------------------------------
