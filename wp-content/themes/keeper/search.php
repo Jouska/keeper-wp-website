@@ -15,14 +15,14 @@ get_header();
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header article-intro keeper-blog-intro">
+			<header class="page-header article-intro keeper-blog-intro search-page">
 				<h2 class="page-title">
 					<?php
 					/* translators: %s: search query. */
 					printf( esc_html__( 'Search Results for: %s', 'keeper' ), '<span>' . get_search_query() . '</span>' );
 					?>
 				</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, tempore! Mollitia eos doloremque eum dolorem accusantium laudantium laborum reiciendis hic molestiae magni et ea cum, suscipit asperiores repellendus unde fuga!</p>
+				<p>Welcome to the Keeper Blog, where we dissect and de-mystify effective communications and the web.</p>
 				<?php get_search_form(); ?>
 			</header><!-- .page-header -->
 

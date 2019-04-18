@@ -45,7 +45,7 @@
 		
 		<?php if ( is_front_page() ) : ?>
 			<div class="header__hero-banner"
-			style="background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/butterfly_full3.jpg);">
+			style="background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/butterfly_full4.jpg);">
 	
 			</div>
 		<?php endif ?>
