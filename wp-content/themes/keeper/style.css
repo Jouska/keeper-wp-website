@@ -570,8 +570,8 @@ td:last-child {
 	display: inline-block;
 	transition: all .2s;
 	position: relative;
-	font-size: 1.6rem;
-	font-family: arial, sans-serif;
+	font-size: 2rem;
+	font-family: "matrix-ii", Georgia, Cambria, "Times New Roman", Times, serif;
 	border: none;
 	cursor: pointer;
 }
@@ -1232,11 +1232,19 @@ a:focus {
 	border: 1px solid #333;
 	background-color: white;
 	padding: 5px 20px;
+	transition: all .2s;
 }
 
-#skills-button button:active {
+#skills-button button:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+#skills-button button:active, #skills-button button:focus {
 	background-color: #333;
 	color: white;
+	transform: translateY(-1px);
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 /*--------------------------------------------------------------
