@@ -192,6 +192,10 @@ function keeper_scripts() {
 
 	wp_enqueue_style( 'keeper-style', get_stylesheet_uri() );
 
+	// wp_enqueue_script( 'semantic-dimmer-script', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/dimmer.min.js');
+
+	// wp_enqueue_style( 'semantic-dimmer-style', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/dimmer.min.css' );
+
 	wp_enqueue_script( 'keeper-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
 
 	wp_localize_script( 'keeper-navigation', 'keeperScreenReaderText', array(
