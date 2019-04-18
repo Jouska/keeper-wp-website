@@ -48,7 +48,7 @@ if ( ! function_exists( 'keeper_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Header left', 'keeper' ),
 			'menu-2' => esc_html__( 'Header right', 'keeper'),
-			'menu-3' => esc_html__( 'Social media menu', 'keeper'),
+			'menu-3' => esc_html__( 'Footer menu', 'keeper'),
 		) );
 
 		/*

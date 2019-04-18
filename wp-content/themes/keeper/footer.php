@@ -22,7 +22,7 @@
             <nav class="footer__navigation">
 			<?php
 				wp_nav_menu( array(
-					'theme_location' => 'menu-2',
+					'theme_location' => 'menu-3',
 				) );
 			?>
             </nav>
