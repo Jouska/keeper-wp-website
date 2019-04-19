@@ -219,7 +219,7 @@
 		background-color: #fff;
 		line-height: 34px;
 		text-decoration: none;
-		border: 1px solid #c3c3c3;
+		border: 1px solid $color-body;
 		
 		&:hover,
 		&:focus {
@@ -229,6 +229,11 @@
 			box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 			
 		}
+
+		&:active {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+            transform: translateY(1px);
+        }
 	}
 	
 	label {

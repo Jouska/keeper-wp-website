@@ -2406,7 +2406,7 @@ ul.children.toggled-on {
 	background-color: #fff;
 	line-height: 34px;
 	text-decoration: none;
-	border: 1px solid #c3c3c3;
+	border: 1px solid #363636;
 }
 
 .comment-form .form-submit input:hover, .comment-form .form-submit input:focus {
@@ -2414,6 +2414,11 @@ ul.children.toggled-on {
 	background: #363636;
 	border-color: #363636;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.comment-form .form-submit input:active {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	transform: translateY(1px);
 }
 
 .comment-form label {
