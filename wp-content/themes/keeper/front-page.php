@@ -3,25 +3,25 @@
                 <section class="about-us-strip">
                     <div class="about-us-strip__header-area">
                         <span class="about-us-strip__header-area__tagline">For attention seekers</span>
-                        <h2 class="about-us-strip__header-area__summary">Keeper is a Bristol-based creative studio working in web and print.
-                    Web design solutions, image making services and brand messaging for your story.</h2>
+                        <h2 class="about-us-strip__header-area__summary">Keeper is a Bristol-based creative studio, working online and in print. We design web solutions, make images, and tell your brand’s story.</h2>
                     </div>
                     <div class="wrapper">
                         <div class="about-us-strip__text-area">
-                            <p>We're here to make you look good. We started Keeper in mid-2018 because there were a lot of places you could go to buy design, websites and copy, but very few places that tied these things together with a compelling vision, or pragmatic strategies.</p> 
-                            <p>Even fewer agencies felt personally invested in their clients success.</p>
-                            <p>It goes like this: de-mystify the problem, come up with a plan and execute it. </p>
+                            <p>We're here to make you look good.</p> 
+                            <p>Plenty of places sell websites, design, and copy. But very few agencies offer a compelling vision, or tie their services together with pragmatic strategies. And even fewer feel personally invested in their clients’ success.</p>
+                            <p>So we started Keeper in mid-2018. It goes like this: de-mystify the problem, come up with a plan, and execute it.</p>
                             <p>That's what we do.</p>
-                            <p>So, if you're a small company who's good at what they do, but needs help  presenting their work to the world, or if you're a medium sized organisation that wants to upgrade their relationship with their customers and clients, we would love to hear from you.</p>
+                            <p>If you're a small company who's good at what you do, but you need help presenting your work to the world – or if you're a medium-sized organisation wanting to upgrade your relationship with customers and clients – we’d love to hear from you.</p>
                         </div>
                         <div class="about-us-strip__skills-area">
                             <p>Communications strategy</p>
                             <p>Branding and brand guidelines</p>
                             <p>Photography and illustration</p>
-                            <p>Print design (brochures, leaflets)</p>
+                            <p>Print design (brochures, leaflets, ads)</p>
                             <p>Copy writing, editing and tone-of-voice development</p>
                             <p>Technical solutions</p>
                             <p>Web design and development</p>
+                            <p>Workflow consultation</p>
                         </div>
                     </div>
                     <div id="skills-button" class="about-us-strip__skills-button">

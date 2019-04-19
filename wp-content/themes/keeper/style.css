@@ -1183,7 +1183,7 @@ a:focus {
 
 @media screen and (min-width: 600px) {
 	.about-us-strip__skills-area {
-		font-size: 3rem;
+		font-size: 2.7rem;
 	}
 }
 
@@ -1687,7 +1687,7 @@ ul.children.toggled-on {
 @media screen and (min-width: 791px) {
 	.archive-view article,
 	.archive-view .article-intro {
-		min-height: 545px;
+		min-height: 515px;
 	}
 }
 
