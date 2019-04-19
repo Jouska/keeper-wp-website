@@ -30,7 +30,7 @@
                     <!-- <div class="about-us-strip__capabilities">
                         <p>Communications strategy | Branding and brand guidelines | Photography and illustration | Print design (brochures, leaflets) | Copy writing, editing and tone-of-voice development | Web development and design</p>
                     </div> -->
-                    <div class="about-us-strip__contact-area">
+                    <div class="about-us-strip__contact-area" id="contact-form">
                         <div class="about-us-strip__contact-area__text">
                             <h2>Contact</h2>
                         </div>
