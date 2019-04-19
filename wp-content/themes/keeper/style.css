@@ -318,7 +318,7 @@ body {
 	font-weight: 400;
 	/*font-size: 16px;*/
 	line-height: 1.7;
-	color: #333;
+	color: #363636;
 	font-size: 2rem;
 }
 
@@ -565,30 +565,29 @@ td:last-child {
 --------------------------------------------------------------*/
 .btn, .btn:link, .btn:visited {
 	text-decoration: none;
-	padding: 1.5rem 4rem;
 	display: inline-block;
 	transition: all .2s;
 	position: relative;
 	font-size: 2rem;
 	font-family: "matrix-ii", Georgia, Cambria, "Times New Roman", Times, serif;
+	line-height: 34px;
+	padding: 5px 20px;
+	transition: all .2s;
 	border: none;
 	cursor: pointer;
+	border: 1px solid #363636;
 }
 
-.btn:hover {
-	transform: translateY(-3px);
+.btn:hover, .btn:focus {
+	color: #363636;
+	background: #fff;
+	border-color: #363636;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-.btn:hover::after {
-	transform: scaleX(1.4) scaleY(1.6);
-	opacity: 0;
-}
-
-.btn:active, .btn:focus {
-	outline: none;
-	transform: translateY(-1px);
+.btn:active {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	transform: translateY(1px);
 }
 
 .btn--white {
@@ -612,6 +611,7 @@ td:last-child {
 .btn--black {
 	background-color: #363636;
 	color: #fff;
+	border: 1px solid #363636;
 }
 
 .btn--black::after {
@@ -634,6 +634,11 @@ td:last-child {
 .btn--animated {
 	animation: moveInBottom .5s ease-out .75s;
 	animation-fill-mode: backwards;
+}
+
+.wpcf7-submit {
+	display: block;
+	margin: 0 auto;
 }
 
 .btn-text:link, .btn-text:visited {
@@ -1133,7 +1138,7 @@ a:focus {
 
 .about-us-strip__contact-area {
 	width: 36rem;
-	margin-top: 4rem;
+	margin-top: 8rem;
 }
 
 .about-us-strip__contact-area h2 {
@@ -1159,7 +1164,7 @@ a:focus {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 4rem;
-	margin-top: 8rem;
+	margin-top: 5rem;
 	display: block;
 	line-height: 100%;
 }
@@ -1200,6 +1205,7 @@ a:focus {
 	position: relative;
 	max-width: 1080px;
 	width: 100%;
+	overflow: hidden;
 }
 
 .about-us-strip__skills-area {
@@ -1226,24 +1232,26 @@ a:focus {
 }
 
 #skills-button button {
-	margin: 3rem 0;
-	font-size: 2rem;
-	border: 1px solid #333;
-	background-color: white;
+	margin: 3rem 0 2rem;
 	padding: 5px 20px;
-	transition: all .2s;
+	font-size: 2rem;
+	color: #363636;
+	background-color: #fff;
+	line-height: 34px;
+	text-decoration: none;
+	border: 1px solid #363636;
 }
 
-#skills-button button:hover {
-	transform: translateY(-3px);
+#skills-button button:hover, #skills-button button:focus {
+	color: #fff;
+	background: #363636;
+	border-color: #363636;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-#skills-button button:active, #skills-button button:focus {
-	background-color: #333;
-	color: white;
-	transform: translateY(-1px);
+#skills-button button:active {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	transform: translateY(1px);
 }
 
 /*--------------------------------------------------------------
@@ -2392,10 +2400,11 @@ ul.children.toggled-on {
 }
 
 .comment-form .form-submit input {
-	padding: .5em 1.4em;
-	font-size: 85%;
-	color: #000;
-	line-height: 1.3em;
+	padding: 5px 20px;
+	font-size: 2rem;
+	color: #363636;
+	background-color: #fff;
+	line-height: 34px;
 	text-decoration: none;
 	border: 1px solid #c3c3c3;
 }
@@ -2404,6 +2413,7 @@ ul.children.toggled-on {
 	color: #fff;
 	background: #363636;
 	border-color: #363636;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .comment-form label {

@@ -213,10 +213,11 @@
 	}
 	
 	.form-submit input {
-		padding: .5em 1.4em;
-		font-size: 85%;
-		color: #000;
-		line-height: 1.3em;
+		padding: 5px 20px;
+		font-size: 2rem;
+		color: $color-body;
+		background-color: #fff;
+		line-height: 34px;
 		text-decoration: none;
 		border: 1px solid #c3c3c3;
 		
@@ -225,6 +226,7 @@
 			color: #fff;
 			background: $color-body;
 			border-color: $color-body;
+			box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 			
 		}
 	}
