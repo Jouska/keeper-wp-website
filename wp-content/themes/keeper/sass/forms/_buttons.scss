@@ -54,23 +54,23 @@
         transform: translateY(1px);
     }
     
-    &--white {
-        background-color: $color-white;
-        color: $color-grey-dark;
+    // &--white {
+    //     background-color: $color-white;
+    //     color: $color-grey-dark;
 
-        &::after {
-            background-color: $color-white;
-        }
-    }
+    //     &::after {
+    //         background-color: $color-white;
+    //     }
+    // }
 
-    &--green {
-        background-color: $color-primary;
-        color: $color-white;
+    // &--green {
+    //     background-color: $color-primary;
+    //     color: $color-white;
 
-        &::after {
-            background-color: $color-primary;
-        }
-    }
+    //     &::after {
+    //         background-color: $color-primary;
+    //     }
+    // }
 
     &--black {
         background-color: $color-body;
@@ -78,28 +78,28 @@
         border: 1px solid $color-body;
 
 
-        &::after {
-           background-color: $color-body; 
-        }
+        // &::after {
+        //    background-color: $color-body; 
+        // }
     }
     
-    &::after {
-        content: "";
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        border-radius: 10rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: all .4s;
-    }
+    // &::after {
+    //     content: "";
+    //     display: inline-block;
+    //     height: 100%;
+    //     width: 100%;
+    //     border-radius: 10rem;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: -1;
+    //     transition: all .4s;
+    // }
     
-    &--animated {
-        animation: moveInBottom .5s ease-out .75s;
-        animation-fill-mode: backwards;
-    }
+    // &--animated {
+    //     animation: moveInBottom .5s ease-out .75s;
+    //     animation-fill-mode: backwards;
+    // }
 }
 
 .wpcf7-submit {

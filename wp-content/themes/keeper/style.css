@@ -590,50 +590,10 @@ td:last-child {
 	transform: translateY(1px);
 }
 
-.btn--white {
-	background-color: #fff;
-	color: #777;
-}
-
-.btn--white::after {
-	background-color: #fff;
-}
-
-.btn--green {
-	background-color: #55c57a;
-	color: #fff;
-}
-
-.btn--green::after {
-	background-color: #55c57a;
-}
-
 .btn--black {
 	background-color: #363636;
 	color: #fff;
 	border: 1px solid #363636;
-}
-
-.btn--black::after {
-	background-color: #363636;
-}
-
-.btn::after {
-	content: "";
-	display: inline-block;
-	height: 100%;
-	width: 100%;
-	border-radius: 10rem;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	transition: all .4s;
-}
-
-.btn--animated {
-	animation: moveInBottom .5s ease-out .75s;
-	animation-fill-mode: backwards;
 }
 
 .wpcf7-submit {
