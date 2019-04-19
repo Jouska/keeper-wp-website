@@ -19,7 +19,6 @@
 
 	<?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'keeper' ); ?></a>
@@ -44,10 +43,7 @@
 		</nav><!-- #site-navigation -->
 		
 		<?php if ( is_front_page() ) : ?>
-			<div class="header__hero-banner"
-			style="background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/img/butterfly_full4.jpg);">
-	
-			</div>
+			<div class="header__hero-banner"></div>
 		<?php endif ?>
 		
 	</header><!-- #masthead -->

@@ -953,6 +953,7 @@ a:focus {
 	height: 31vh;
 	background-position: center;
 	background-size: 270%;
+	background-image: url(./assets/img/butterfly_full4.jpg);
 }
 
 .header__hero-banner::after {
@@ -980,6 +981,12 @@ a:focus {
 @media screen and (min-width: 1023px) and (min-height: 1365px) {
 	.header__hero-banner {
 		height: 40rem;
+	}
+}
+
+@media screen and (min-width: 1998px) {
+	.header__hero-banner {
+		background-image: url(./assets/img/butterfly_full4_4k.jpg);
 	}
 }
 
